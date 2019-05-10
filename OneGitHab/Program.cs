@@ -16,7 +16,11 @@ namespace OneGitHab
         {
             CreateWebHostBuilder(args).Build().Run();
         }
-
+        /// <summary>
+        /// /1245444444
+        /// </summary>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
